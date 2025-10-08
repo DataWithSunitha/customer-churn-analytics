@@ -1,64 +1,49 @@
-# 🧠 Customer Churn Prediction
+# Customer Churn Analytics – Telecom Retention Insights
 
-An end-to-end machine learning project to predict customer churn for a telecom company. Built with Python, Pandas, scikit-learn, and Jupyter.
+## 📊 Overview
+Analyzes telecom customer data to identify churn risk and provide actionable business insights.  
+Focuses on **data cleaning, KPI tracking, and visualization** to support retention strategies.
 
----
+## 🎯 Business Problem
+High customer churn leads to revenue loss. Predicting churn and understanding drivers allows the company to proactively retain customers and optimize operations.
 
-## 📊 Project Overview
+## 🧠 Key Insights
+- Identified customer segments with up to **60% higher churn risk**  
+- Key drivers of churn: contract type, monthly charges, and service features  
+- Built KPI dashboards to track churn trends and retention metrics  
+- Generated actionable insights to guide marketing and customer success initiatives
 
-Churn (customer loss) is one of the biggest concerns in subscription-based businesses. In this project, I:
-
-- Cleaned and prepared raw churn data
-- Performed exploratory data analysis
-- Engineered features and trained a logistic regression model
-- Evaluated model accuracy and performance
-
----
-
-## 🛠️ Tech Stack
-
-- **Python** (Pandas, NumPy, scikit-learn)
-- **Jupyter Notebook** for development
-- **GitHub** for version control
-- **SQL** (for future analysis layer)
-
----
+## 🛠️ Tools & Technologies
+Python | Pandas | SQL | Jupyter Notebook | Power BI / Tableau (optional for dashboarding)  
 
 ## 📁 Project Structure
 
 customer-churn-analytics/
-├── data/
+├── data/ # Raw and processed datasets
 │ └── telco_churn.csv
-├── notebooks/
+├── notebooks/ # Python analysis and KPI calculations
 │ └── churn_model.ipynb
+├── dashboard/ # Optional BI dashboards
+├── images/ # Dashboard screenshots
 ├── README.md
 
----
 
-## 🚀 How to Run This Project
-
-1. Clone the repository
-2. Open the notebook in Jupyter
-3. Run all cells to see data cleaning, model training, and churn predictions
-
----
+## 🚀 How to Run
+1. Clone the repository  
+2. Open `churn_model.ipynb` in Jupyter  
+3. Run all cells to explore the dataset, calculate KPIs, and view visualizations  
+4. (Optional) Open dashboards in Power BI / Tableau to explore trends and metrics
 
 ## 📌 Next Improvements
-
-- Add model explainability (SHAP)
-- Visualize feature importances
-- Create SQL tables for historical churn reporting
-
----
+- Add SQL layer for reporting historical churn data  
+- Integrate predictive scoring with KPI dashboards  
+- Include model explainability (SHAP) for business stakeholders  
 
 ## 🔗 Dataset Source
-
 - [Telco Customer Churn - Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
----
-
 ## 🙋‍♀️ About Me
+Data and AI enthusiast building real-world projects to prepare for roles in **Data Analytics, Business Intelligence, and AI Product Strategy**.
 
-I'm a data and AI enthusiast building real-world portfolio projects to prepare for roles in data science and AI product strategy.
 
 Let’s connect on https://www.linkedin.com/in/psunitha/!
